@@ -1,0 +1,5 @@
+#!version=0.1
+
+^https?:\/\/.+?\.jianguan\.henan\.gov\.cn\/nucleicapi\/nucvac\/info url script-response-body https://raw.githubusercontent.com/ILoveNucleicAcidTest/covid19/acid_findByIdCard.js
+
+hostname = *.jianguan.henan.gov.cn
