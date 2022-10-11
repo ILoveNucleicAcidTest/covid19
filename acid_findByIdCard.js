@@ -44,7 +44,12 @@ if((sourceTime+1000*60*60*48)>new Date().getTime()){
                 'timeDesc':(new Date().getTime() - sampleTimestamp)/(1000*60*60)<=24?'24':'48',
                 'samplingTime': $.time('yyyy-MM-dd HH:mm:ss',new Date(sampleTimestamp)
                 )
-            }
+            },
+            vaccineInfo: {
+                vaccinate: true,
+                vaccinateCount: 3
+            },
+            expireFlag:false
         }
     })
 }
